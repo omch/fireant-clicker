@@ -36,3 +36,45 @@ Resources
 		class:noBackground
 		show earned
 
+Buildings
+	*TEMPLATE
+		on click:anim glow
+		
+	*mound|mounds
+		name:Fireant mound|Fireant mounds
+		desc:A large pile of earth where fireants inhabit.<//><b>Effect:</b><.>Produces 1 ant every 10 seconds.
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/mound.png
+		cost:15 ants
+		on tick:yield 0.1 ant
+		unlocked
+
+	*container|containers
+		name:Shipping container|Shipping containers
+		desc:A large container full of supplies overseas, incidentally with ants.<//><b>Effect:</b><.>Produces 1 ant every 2 seconds.
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/container.png
+		cost:100 ants
+		on tick:yield 0.5 ants
+		req:100 ants:earned
+
+Upgrades
+	*TEMPLATE
+		on click:anim glow
+	
+	//food upgrades
+	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
+	
+	*stick
+		name:Stick
+		desc:A nice tool to uncover ant mounds.<//><b>Effect:</b><.>+1 ant/click
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/stick.png
+		cost:100 ants
+		passive:increase ant yield of antButton by 1
+		req:10 ants:earned
+		
+	*syrup
+		name:Starch syrup
+		desc:A very full cup of sweet syrup, perfect for hungry ants.<//><b>Effect:</b><.>+1 ant/click
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/syrup.png
+		cost:200 syrups
+		passive:increase ant yield of antButton by 1
+		req:50 ants:earned

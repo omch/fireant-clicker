@@ -10,7 +10,7 @@ Settings
 	building cost increase:115%
 	building cost refund:50%
 //	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
-//	stylesheet:stuff/bigBlue.css
+	stylesheet: https://raw.githubusercontent.com/omch/fireant-clicker/master/style.css
 
 Layout
 	use default

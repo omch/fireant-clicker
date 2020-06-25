@@ -228,6 +228,14 @@ Buildings
 		on tick:yield 0.5 ants
 		req:100 ants:earned
 
+	*blanket|blankets
+		name:Blanket|Blankets
+		desc:A fluffy blanket enveloping a queen and her 2 thousand ants.<//><b>Effect:</b><.>Produces 2000 ants per second.
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/blanket.png
+		cost:2000 ants
+		on tick:yield 2000 ants
+		req:700 ants:earned
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow

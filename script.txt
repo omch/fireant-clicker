@@ -18,7 +18,7 @@ Layout
 
 CSS
     .thing-icon {
-        background-size: cover'
+        background-size: cover;
     }
 
 

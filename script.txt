@@ -15,6 +15,13 @@ Settings
 Layout
 	use default
 		
+
+CSS
+    .thing-icon {
+        background-size: cover'
+    }
+
+
 Buttons
 	*antButton
 		name:Make a fireant

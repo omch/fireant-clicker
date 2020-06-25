@@ -6,7 +6,7 @@ Let's make a game!
 	version:0
 
 Settings
-	background:bg.ong
+	background: https://raw.githubusercontent.com/omch/fireant-clicker/master/bg.png
 	building cost increase:115%
 	building cost refund:50%
 //	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
@@ -21,7 +21,7 @@ Buttons
 		desc:Click this little fireant to get more fireants!
 		on click:anim icon wobble
 		on click:yield 1 ant
-		icon:hiari.png
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/hiari.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -32,7 +32,7 @@ Resources
 	*ant|ants
 		name:Fireant|Fireants
 		desc:These are your fireants. You can use them to purchase things. Your goal is to have as many fireants as possible!
-		icon:hiari.png
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/hiari.png
 		class:noBackground
 		show earned
 

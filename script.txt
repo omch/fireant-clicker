@@ -28,7 +28,7 @@ Buttons
 		desc:Click this little fireant to get more fireants!
 		on click:anim icon wobble
 		on click:yield 1 ant
-		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/hiari.png
+		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/bighiari.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed

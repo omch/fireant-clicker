@@ -255,6 +255,6 @@ Upgrades
 		name:Starch syrup
 		desc:A very full cup of sweet syrup, perfect for hungry ants.<//><b>Effect:</b><.>+1 ant/click
 		icon:https://raw.githubusercontent.com/omch/fireant-clicker/master/syrup.png
-		cost:200 syrups
+		cost:200 ants
 		passive:increase ant yield of antButton by 1
 		req:50 ants:earned

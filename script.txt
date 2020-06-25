@@ -1,0 +1,38 @@
+Let's make a game!
+	name: Fireant Clicker
+	by: omch
+	desc: This is a simple ant-production game being in experimental phase
+	created:25/6/2020
+	version:0
+
+Settings
+	background:bg.ong
+	building cost increase:115%
+	building cost refund:50%
+//	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
+//	stylesheet:stuff/bigBlue.css
+
+Layout
+	use default
+		
+Buttons
+	*antButton
+		name:Make a fireant
+		desc:Click this little fireant to get more fireants!
+		on click:anim icon wobble
+		on click:yield 1 ant
+		icon:hiari.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+		
+Resources
+	*ant|ants
+		name:Fireant|Fireants
+		desc:These are your fireants. You can use them to purchase things. Your goal is to have as many fireants as possible!
+		icon:hiari.png
+		class:noBackground
+		show earned
+
